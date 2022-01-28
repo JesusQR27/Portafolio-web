@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Web</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/experiences.css">
+    <link rel="stylesheet" href="css/cursos.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <script defer src="js/app.js"></script>
+    <script defer src="js/modal.js"></script>
+    <script defer src="js/validacion_formulario.js"></script>
+  </head>
+  <body>
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="#" class="logo">
+          <img
+            height="50"
+            width="50"
+            src="img/Foto andres.png"
+            alt="Programador"
+          />
+          <div class="logotype">
+            Andrés Quirumbay Rodas<br />
+            { Student }
+          </div>
+        </a>
+        <button class="open-menu" aria-label="Abrir menú">
+          <img src="img/hamburger-icon.svg" alt="Abrir menú" />
+        </button>
+        <ul class="menu">
+          <button class="close-menu" aria-label="Cerrar menú">
+            <img src="img/close-icon.svg" alt="cerrar menú" />
+          </button>
+          <li><a href="#profile" class="selected">Perfil</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#cursos">Cursos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="profile" id="profile">
+        <div class="profile-info">
+          <h1 class="profile-title">Hola, soy <br />Andrés Quirumbay </h1>
+          <p class="profile-details">
+            Estudiante de la  Universidad Estatal de Milagro "Unemi" 
+            y miembro del  movimiento universitario  
+            "INTEGRACION UNIVERSITARIA (IU)",resido en la ciudad de Guayaquil,
+            actualmente sigo la carrera Ingeniería en Software donde aprenderé 
+            a programar y a desarrollar en los distintos lenguajes de programación
+            HTML, JAVA SCRIP, CSS, etc. SALUDOS!
+          </p>
+          <button class="profile-btn">Descargar cv</button>
+        </div>
+        <span class="profile-img-section">
+          <img
+            class="profile-img"
+            src="img/Foto andres.png"
+            alt="Programador"
+          />
+          <div class="profile-img-line"></div>
+        </span>
+      </section>
+    </div>
+
+    <section class="experiences" id="experience">
+      <img src="img/wave.svg" alt="división" class="wave">
+      <div class="experiences-body">
+        <h2 class="experiences-title">Experiencia</h2>
+        <div class="experiences-grid">
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">Abril 2021</div>
+            <div class="experience-company">UNEMI</div>
+            <div class="experience-position">Certificación</div>
+            <div class="experience-description">
+              Me capacité en el curso de Diseño de sitios Web Usando Wordpress, el cual fue desarrollado
+              durante el mes de Abril, con una duración de 20 horas, modalidad en línea.
+            </div>
+          </div>
+          <div class="experience experience_left">
+            <div class="experience-date">Junio 2021</div>
+            <div class="experience-company">UNEMI</div>
+            <div class="experience-position">Ingenieía en software</div>
+            <div class="experience-description">
+              Participé en el desarrollo de un sistema de cálculo, el cual fue programado en Python. 
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">Septiembre 2021</div>
+            <div class="experience-company">UNEMI</div>
+            <div class="experience-position">Ingeniería en Sofware</div>
+            <div class="experience-description">
+              Desarrollé un sistema de registros de estudiantes, este fue programado en Python.
+            </div>
+          </div>
+          <div class="experience experience_left">
+            <div class="experience-cert">Noviembre 2021</div>
+            <div class="experience-company">UNEMI</div>
+            <div class="experience-position">Certificación</div>
+            <div class="experience-description">
+              Me capacité en el curso de Ofimática, desarrollado desde el 18 de octubre
+              al 05 de noviembre del 2021 con una duración de 120 horas, modalidad virtual.
+            </div>
+          </div>
+          <div class="line"></div>
+        </div>
+      </div>
+      <img src="img/wave.svg" alt="División" class="wave wave_bottom">
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="skills" id="skills">
+        <h2 class="skills-title">Habilidades</h2>
+        <ul class="skills-list">
+          <li class="skills-skill">CSS</li>
+          <li class="skills-skill">HTML</li>
+          <li class="skills-skill">Django</li>
+          <li class="skills-skill">Vbnet</li>
+          <li class="skills-skill">Node.js</li>
+          <li class="skills-skill">Vfox</li>
+          <li class="skills-skill">Python</li>
+          <li class="skills-skill">React.js</li>
+          <li class="skills-skill">TypeScript</li>
+          <li class="skills-skill">JavaScript</li>
+        </ul>
+      </section>
+    </div>
+
+    <section class="projects" id="cursos">
+      <h2 class="cursos-title">Cursos</h2>
+      <div class="carousel">
+        <div class="carousel-inner">
+            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+            <div class="carousel-item">
+                <center>
+                    <img src="img/Csslogo.png">
+                </center>
+                <div class="proyects__hover">
+                  <i class="far fa-file-alt proyects__icon"></i>
+                  <p class="text-carousel">El lenguaje CSS es un lenguaje que determina el estilo de 
+                      los documentos HTML. Abarca opciones relativas a fuentes, colores, márgenes, líneas, 
+                      altura, anchura, imágenes de fondo, entre otros.</p>
+                </div>
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <center>
+                    <img src="img/htmlogo.jpg">
+                </center>
+                <div class="proyects__hover">
+                  <i class="far fa-file-alt proyects__icon"></i>
+                  <p class="text-carousel">HTML es un lenguaje de marcado que nos permite indicar la
+                      estructura de nuestro documento mediante etiquetas. Este lenguaje nos ofrece una gran
+                      adaptabilidad, una estructuración lógica y es fácil de interpre­tar tanto por humanos como 
+                      por máquinas.</p>
+                </div>
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <center>
+                    <img src="img/jscriptlogo.png" height=”500” width=500”>
+                </center>
+                <div class="proyects__hover">
+                  <i class="far fa-file-alt proyects__icon"></i>
+                  <p class="text-carousel">JavaScript es un lenguaje de secuencias de comandos que te permite crear 
+                      contenido de actualización dinámica, controlar multimedia, animar imágenes y probablemente todo
+                      lo demás. (Está bien, no todo, pero es sorprendente lo que puedes lograr con unas pocas líneas
+                        de código JavaScript).</p>
+                </div>
+            </div>
+            <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+            <label for="carousel-2" class="carousel-control next control-1">›</label>
+            <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+            <label for="carousel-3" class="carousel-control next control-2">›</label>
+            <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+            <label for="carousel-1" class="carousel-control next control-3">›</label>
+            <ol class="carousel-indicators">
+                <li>
+                    <label for="carousel-1" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                    <label for="carousel-2" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                    <label for="carousel-3" class="carousel-bullet">•</label>
+                </li>
+            </ol>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section class="footer__container" id="contact">
+      <div class="main-content">
+          <div class="left box">
+            <h1 class="content__title">Contacto</h1>
+            <div class="content">
+                <ul class="content__contact">
+                    <li class="contact-data">Direccion:</li>
+                    <li class="contact-data">Guayaquil/Ecuador</li>
+                    <li class="contact-data">Email:</li>
+                    <li class="contact-data">jquirumbayr@unemi.edu.ec</li>
+                    <li class="contact-data"><p>Deje su mensaje y con gusto le responderé</p></li>
+                    <li class="contact-data"><p>&#9203; &#x2602;&#xfe0f; &#x2618;&#xfe0f; &#x2709;&#xfe0f;  &#x2705;</p></li>
+                </ul>
+            </div>
+          </div>
+          <div class="right box">
+            <div class="content">
+              <form action="#" id="encuesta">
+                <div class="name">
+                  <div class="text">Nombre *</div>
+                  <input type="text" id="nombre" class="formcontrol" placeholder="Nombre" title="El nombre solo acepta letras" pattern="^[A-Za-zÑñáéíóú\s]+$" required>
+                </div>
+                <div class="email">
+                  <div class="text">Email *</div>
+                  <input type="email" id="email" class="formcontrol" placeholder="Email" title="Email ingresado es incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+                </div>
+                <div class="msg">
+                  <div class="text">Mensaje *</div>
+                  <textarea name="" id="comentario" cols="30" rows="10" class="formcontrol" placeholder="Envianos tu mensaje" title="tu comentario no debe exceder de 300 caracteres" data-pattern="^.{2,255}$" required></textarea>
+                </div>
+                <div class="btn">
+                  <button type="submit" id="enviar" class="btnsubmit">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+    </section>
+  <div class="modal-container" id="myModal">
+      <div class="modal modal-close">
+        <center>
+          <img src="img/Foto andres.png" alt="Programador">
+        </center>
+          <h2 class="modal-textos">
+              Gracias por su inscripcion, le saluda Andrés Quirumbay 
+          </h2>
+          <p class="saludos" id="saludos"></p>
+          <p class="close">Aceptar</p>
+      </div>
+  </div>
+  </body>
+</html>
